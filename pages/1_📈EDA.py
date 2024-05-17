@@ -10,7 +10,9 @@ def load_data(file_name):
 file_name = "data/display_data.csv"
 
 df = load_data(file_name)
-st.markdown(f"Below are random 5 observations from [{file_name}](https://github.com/jaideep156/news-articles/blob/main/data/display_data.csv) dataset which is ready to be worked upon.")
+st.markdown(f"Below are random 5 observations from [display_data.csv](https://github.com/jaideep156/news-articles/blob/main/data/display_data.csv) dataset which has been derived from [master_data.csv](https://github.com/jaideep156/news-articles/blob/main/data/master_data.csv).")
+
+st.markdown(f"For detailed steps on how we got this data, you can look at the pre-processing steps in the [jupyter notebook](https://github.com/jaideep156/news-articles/blob/main/notebook/notebook.ipynb).")
 
 st.write(df.sample(5))
 
