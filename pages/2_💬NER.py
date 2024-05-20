@@ -4,7 +4,7 @@ import random
 import spacy
 from spacy import displacy 
 nlp = spacy.load('en_core_web_sm')
-
+st.set_page_config(page_title="NER using spaCy", page_icon="💬")
 def load_data(file_name):
     return pd.read_csv(file_name)
 
