@@ -5,7 +5,7 @@ import ast
 st.set_page_config(page_title="NER using BERT", page_icon="🤗")
 
 st.title("NER using BERT by HuggingFace🤗")
-st.sidebar.markdown(" ## NER using HuggingFace🤗")
+
 df = pd.read_csv("data/entity_bert.csv")
 df.drop(columns=['category'], inplace=True)
 
