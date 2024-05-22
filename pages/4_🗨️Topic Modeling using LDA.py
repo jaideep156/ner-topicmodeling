@@ -8,7 +8,7 @@ st.set_page_config(page_title="Topic modeling LDA", page_icon="🗨️")
 st.title("Topic modeling using Latent Dirichlet Allocation")
 
 lda_df = pd.read_csv('data/LDA_topics.csv')
-st.markdown("We are using [Latent Dirichlet Allocation](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation) for topic modeling. For all the detailed steps on how we are doing it, you can checkout [topicmodeling_LDA.ipynb](https://github.com/jaideep156/news-articles/blob/main/notebook/topicmodeling_LDA.ipynb).")
+st.markdown("We are using [Latent Dirichlet Allocation](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation) for topic modeling. For all the detailed steps on how we are doing it, you can checkout [topicmodeling_LDA.ipynb](https://github.com/jaideep156/ner-topicmodeling/blob/main/notebook/topicmodeling_LDA.ipynb).")
 
 st.markdown("We are limiting number of topics to 15 & below are 10 random observations from output after LDA:")
 st.dataframe(lda_df.sample(10))

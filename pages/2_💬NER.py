@@ -14,9 +14,9 @@ df = load_data("data/display_data.csv")
 st.markdown("# Named Entity Recognition using spaCy💬")
 st.sidebar.markdown(" ## NER using spaCy💬")
 
-st.markdown(f"For detailed steps on how we on how we are doing NER using spaCy, you can look at the [NER.ipynb](https://github.com/jaideep156/news-articles/blob/main/notebook/NER.ipynb).")
+st.markdown(f"For detailed steps on how we on how we are doing NER using spaCy, you can look at the [NER.ipynb](https://github.com/jaideep156/ner-topicmodeling/blob/main/notebook/NER.ipynb).")
 
-st.write("We are importing the [display_data.csv](https://github.com/jaideep156/news-articles/blob/main/data/display_data.csv) & below are the steps carried out:")
+st.write("We are importing the [display_data.csv](https://github.com/jaideep156/ner-topicmodeling/blob/main/data/display_data.csv) & below are the steps carried out:")
 st.write(
     """
     - Preprocessing (lowercasing & removing special characters)

@@ -11,9 +11,9 @@ df.drop(columns=['category'], inplace=True)
 
 st.markdown("We are using [this](https://huggingface.co/dbmdz/bert-large-cased-finetuned-conll03-english) model which is a pre-trained BERT model fine-tuned specifically for Named Entity Recognition tasks on the CoNLL-2003 dataset.")
 
-st.markdown(f"We are using [display_data.csv](https://github.com/jaideep156/news-articles/blob/main/data/display_data.csv) to train BERT. It has been derived from [master_data.csv](https://github.com/jaideep156/news-articles/blob/main/data/master_data.csv).")
+st.markdown(f"We are using [display_data.csv](https://github.com/jaideep156/ner-topicmodeling/blob/main/data/display_data.csv) to train BERT. It has been derived from [master_data.csv](https://github.com/jaideep156/ner-topicmodeling/blob/main/data/master_data.csv).")
 
-st.markdown(f"For all the detailed steps on how to do NER using BERT from HuggingFace🤗, you can look at [NER_BERT.ipynb](https://github.com/jaideep156/news-articles/blob/main/notebook/NER_BERT.ipynb).")
+st.markdown(f"For all the detailed steps on how to do NER using BERT from HuggingFace🤗, you can look at [NER_BERT.ipynb](https://github.com/jaideep156/ner-topicmodeling/blob/main/notebook/NER_BERT.ipynb).")
 
 def extract_entities(entities):
     entities = ast.literal_eval(entities)  # Convert string representation to actual list of dictionaries
